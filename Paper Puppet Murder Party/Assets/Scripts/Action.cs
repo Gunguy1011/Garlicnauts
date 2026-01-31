@@ -12,7 +12,6 @@ abstract public class Action
     public int blocknum = 0;
 
 
-
     public enum EaseType
     {
         None = 0,
