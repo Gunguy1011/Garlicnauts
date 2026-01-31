@@ -97,3 +97,7 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/Paper Puppet Murder Party/Library
+Paper Puppet Murder Party/.vsconfig
+/Paper Puppet Murder Party/Temp
+/Paper Puppet Murder Party/UserSettings
