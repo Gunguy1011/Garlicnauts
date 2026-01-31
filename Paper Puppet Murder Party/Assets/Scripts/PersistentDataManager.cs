@@ -1,4 +1,6 @@
+using OpenCover.Framework.Model;
 using UnityEngine;
+using UnityEngine.Rendering;
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
@@ -10,6 +12,20 @@ public class GameManager : MonoBehaviour
     {
         get { return _instance; }
     }
+
+    public GameObject GetPersistentObject(string objectName)
+    {
+        foreach (GameObject obj in persistentObjects)
+        {
+            if (obj.name.Equals(objectName))
+            {
+                return obj;
+            }
+        }
+        Debug.LogError("Requested persistent object " + objectName + " but it does not exist in the PersistentDataManager!");
+        return null;
+    }
+
 
     // Singleton Pattern
     private void Awake()
