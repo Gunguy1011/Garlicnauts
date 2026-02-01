@@ -156,6 +156,11 @@ MonoBehaviour:
   gameTransform: {fileID: 495386831}
   piecePrefab: {fileID: 5727298022108725250, guid: 0c5543d2fa7900c45902fd829c850198, type: 3}
   piecePrefab2: []
+  size: 3
+  randomSpace: 1
+  box: {fileID: 0}
+  dagger: {fileID: 8252074065672576874, guid: 0c5543d2fa7900c45902fd829c850198, type: 3}
+  poison: {fileID: 8252074065672576874, guid: c270d7a1152c17445b14d8bdb52c55b4, type: 3}
 --- !u!4 &187454159
 Transform:
   m_ObjectHideFlags: 0
