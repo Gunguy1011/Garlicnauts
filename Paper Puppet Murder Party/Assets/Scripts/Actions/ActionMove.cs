@@ -8,11 +8,11 @@ public class ActionMove : Action
 
 
 
-    Vector3 StartPosition_;
+    public Vector3 StartPosition_;
 
-    Vector3 EndPosition_;
+    public Vector3 EndPosition_;
 
-    float MoveSpeed_;
+    public float MoveSpeed_;
 
     public ActionMove(GameObject objectM, Vector3 start, Vector3 end, float duration = 0.0f, float time = 0.0f, EaseType type = 0, bool block_ = false, int blocknum_ = 0)
     {
