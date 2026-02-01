@@ -124,13 +124,13 @@ public class ActionList
     }
 
 
-    public void Fade(GameObject objectM, float start, float end, float duration = 0.0f, float time = 0.0f, Action.EaseType type = 0, bool block = false, int num = 0)
+    public void FadeMesh(GameObject objectM, float start, float end, float duration = 0.0f, float time = 0.0f, Action.EaseType type = 0, bool block = false, int num = 0)
     {
-        Actions.Add(new ActionFade(objectM, start, end, duration, time, type, block, num));
+        Actions.Add(new ActionFadeMesh(objectM, start, end, duration, time, type, block, num));
     }
-    public void Fade(GameObject objectM, float end, float duration = 0.0f, float time = 0.0f, Action.EaseType type = 0, bool block = false, int num = 0)
+    public void FadeMesh(GameObject objectM, float end, float duration = 0.0f, float time = 0.0f, Action.EaseType type = 0, bool block = false, int num = 0)
     {
-        Actions.Add(new ActionFade(objectM, objectM.GetComponent<Renderer>().material.color.a, end, duration, time, type, block, num));
+        Actions.Add(new ActionFadeMesh(objectM, objectM.GetComponent<Renderer>().material.color.a, end, duration, time, type, block, num));
     }
 
     public void FadeText(GameObject objectM, float start, float end, float duration = 0.0f, float time = 0.0f, Action.EaseType type = 0, bool block = false, int num = 0)

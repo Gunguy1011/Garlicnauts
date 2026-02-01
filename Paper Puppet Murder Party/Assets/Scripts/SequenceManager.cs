@@ -11,6 +11,7 @@ public class SequenceManager : MonoBehaviour
 
     private void Awake()
     {
+        actionList.blocked = true;
         foreach (Action action in actionSequence_)
         {
             actionList.Actions.Add(action);

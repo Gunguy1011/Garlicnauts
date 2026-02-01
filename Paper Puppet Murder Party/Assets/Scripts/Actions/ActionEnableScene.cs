@@ -7,7 +7,7 @@ using UnityEngine;
 public class ActionEnableScene : Action
 {
 
-    string sceneToEnable_;
+    public string sceneToEnable_;
 
 
     public ActionEnableScene(GameObject objectM, string sceneToEnable, float duration = 0.0f, float time = 0.0f, EaseType type = 0, bool block_ = false, int blocknum_ = 0)
