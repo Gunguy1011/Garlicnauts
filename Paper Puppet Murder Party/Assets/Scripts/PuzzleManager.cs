@@ -112,11 +112,7 @@ public class PuzzleManager : MonoBehaviour
 
                 if(CheckCompletion())
                 {
-                    Aclist.Fade(pieces[emptyLocation].gameObject, 0, 1, 1, 0, Action.EaseType.None);
-                    Aclist.Fade(pieces[emptyLocation].gameObject, 1, 0, 1, -4, Action.EaseType.None);
-
-
-                    
+                    Aclist.FadeMesh(pieces[emptyLocation].gameObject, 0, 1, 1, 0, Action.EaseType.None);
 
                     pieces[emptyLocation].GetComponent<MeshRenderer>().material.color = new Color(pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.r, pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.g, pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.b, 0);
                     pieces[emptyLocation].gameObject.SetActive(true);

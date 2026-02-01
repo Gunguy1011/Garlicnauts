@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{61fac314-a365-4e49-a581-db42edc06ae3}">
+		<property name="assetPath">
+			<value>SFX/Environment/Beds/SFX_ENV_AmbienceBed_Rain_01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>66</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7a5bce6-c66b-4a61-9eea-803fc4b8e9f0}</destination>
+		</relationship>
+	</object>
+</objects>

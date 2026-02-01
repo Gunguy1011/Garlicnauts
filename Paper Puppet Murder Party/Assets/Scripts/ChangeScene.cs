@@ -11,6 +11,7 @@ public class SwitchScene : MonoBehaviour
     [SerializeField] private string sceneName;
     public void changeScene()
     {
+        // Dis broken rn I gotta change it with async manager but it was bein freaky ~1am natalie
         SceneManager.LoadScene(sceneName);
     }
     

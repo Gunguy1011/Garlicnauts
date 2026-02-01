@@ -124,13 +124,13 @@ public class ActionList
     }
 
 
-    public void Fade(GameObject objectM, float start, float end, float duration = 0.0f, float time = 0.0f, Action.EaseType type = 0, bool block = false, int num = 0)
+    public void FadeMesh(GameObject objectM, float start, float end, float duration = 0.0f, float time = 0.0f, Action.EaseType type = 0, bool block = false, int num = 0)
     {
-        Actions.Add(new ActionFade(objectM, start, end, duration, time, type, block, num));
+        Actions.Add(new ActionFadeMesh(objectM, start, end, duration, time, type, block, num));
     }
-    public void Fade(GameObject objectM, float end, float duration = 0.0f, float time = 0.0f, Action.EaseType type = 0, bool block = false, int num = 0)
+    public void FadeMesh(GameObject objectM, float end, float duration = 0.0f, float time = 0.0f, Action.EaseType type = 0, bool block = false, int num = 0)
     {
-        Actions.Add(new ActionFade(objectM, objectM.GetComponent<Renderer>().material.color.a, end, duration, time, type, block, num));
+        Actions.Add(new ActionFadeMesh(objectM, objectM.GetComponent<Renderer>().material.color.a, end, duration, time, type, block, num));
     }
 
     public void FadeText(GameObject objectM, float start, float end, float duration = 0.0f, float time = 0.0f, Action.EaseType type = 0, bool block = false, int num = 0)
@@ -199,8 +199,11 @@ public class ActionList
     {
         Actions.Add(new ActionTimer(duration, time, type, block_, blocknum_));
     }
-    
 
+    public void EnableScene(GameObject objectM, string sceneToEnable, float duration = 0.0f, float time = 0.0f, EaseType type = 0, bool block_ = false, int blocknum_ = 0)
+    {
+        Actions.Add(new ActionEnableScene(objectM, sceneToEnable, duration, time, type, block_, blocknum_));
+    }
 
 }
 

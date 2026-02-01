@@ -6,10 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: fe41f186da8b4f34abefe1059ff8078e
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 43842d987c7d4c749b50c4eb8bca0b3c
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/MainGame.unity
+    guid: e953e0c222ffa8d42bdc4a7cf56e3be4
+  - enabled: 1
+    path: Assets/Scenes/Minigame_ReddHerring.unity
+    guid: dd0a45feeaafb044fa03a8445b5657f2
+  - enabled: 1
+    path: Assets/Scenes/Minigame_FemmeFatal.unity
+    guid: 6e7902d679b68824a851a0babd683329
+  - enabled: 1
+    path: Assets/Scenes/Minigame_AlEKatt.unity
+    guid: 261ec2ee0eb5b7942939f87e57fad70d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

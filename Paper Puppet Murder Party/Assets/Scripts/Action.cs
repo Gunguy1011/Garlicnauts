@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-abstract public class Action
+
+abstract public class Action : MonoBehaviour
 {
     public float Time_;
     public float Duration_;
