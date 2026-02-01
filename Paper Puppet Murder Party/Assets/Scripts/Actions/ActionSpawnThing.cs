@@ -6,10 +6,10 @@ using UnityEngine;
 public class ActionSpawn : Action
 {
     
-    GameObject make;
-    Vector3 position;
-    Vector3 Adjustment_;
-    Quaternion rotation;
+    public GameObject make;
+    public Vector3 position;
+    public Vector3 Adjustment_;
+    public Quaternion rotation;
 //
     public ActionSpawn(GameObject objectM, GameObject pref, Vector3 adjustment = default(Vector3), float duration = 0.0f, float time = 0.0f, EaseType type = 0, bool block_ = false, int blocknum_ = 0)
     {

@@ -36,6 +36,7 @@ public class AsyncSceneManager : MonoBehaviour
     // Set all of the game objects in a scene to active
     public void SetEnabledScene(string sceneName)
     {
+        bool wasFound = false;
         // If the scene matches, activate it and set to active
         foreach (AsyncScene ourScene in asyncScenes_)
         {
@@ -43,12 +44,17 @@ public class AsyncSceneManager : MonoBehaviour
             {
                 ourScene.SetEnabled(true);
                 SceneManager.SetActiveScene(ourScene.scene_);
+                wasFound = true;
             }
             // If it is not our scene, set active to false
             else
             {
                 ourScene.SetEnabled(false);
             }
+        }
+        if (!wasFound)
+        {
+            Debug.LogError("Tried to enable scene " + sceneName + " but scene is not included in AsyncSceneManager list");
         }
     }
 
