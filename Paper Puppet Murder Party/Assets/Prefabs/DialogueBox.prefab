@@ -98,13 +98,13 @@ MonoBehaviour:
   - Goodbye.
   textSpeed: 0.05
   FMODEventsiHopeThisIsRight: []
-  Georgia: {fileID: 0}
-  Narrator: {fileID: 0}
-  Femme: {fileID: 0}
-  Redd: {fileID: 0}
-  Al: {fileID: 0}
-  Everyone: {fileID: 0}
-  sprit: 0
+  Georgia: {fileID: 21300000, guid: 1031b8d0d45fcde43a0c60dd3f0d6d4c, type: 3}
+  Narrator: {fileID: 21300000, guid: 015c6202b88c22a4d8eb7fc2928c10f8, type: 3}
+  Femme: {fileID: 21300000, guid: c45e5eef93f29364083150cedbe598f2, type: 3}
+  Redd: {fileID: 21300000, guid: dbd8ac38a4edc184292290c056e87c3a, type: 3}
+  Al: {fileID: 21300000, guid: a5dcfc16f21abbc4095640c7d90e1cd0, type: 3}
+  Everyone: {fileID: 21300000, guid: 90db86c201a5a1841a915a6b626ea2ba, type: 3}
+  sprit: 1
 --- !u!114 &7803391981908202788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +171,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1500, y: 280}
+  m_SizeDelta: {x: 1350, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6487140777272652993
 CanvasRenderer:
@@ -230,8 +230,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
