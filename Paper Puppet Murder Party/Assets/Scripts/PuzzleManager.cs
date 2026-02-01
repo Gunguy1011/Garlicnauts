@@ -8,11 +8,11 @@ public class PuzzleManager : MonoBehaviour
     [SerializeField] private Transform piecePrefab;
     [SerializeField] public List<Action> piecePrefab2;
     //[SerializeField] private GameObject win;
+    [SerializeField] public int size = 3;
+    [SerializeField] public bool randomSpace = true;
 
     private List<Transform> pieces;
     private int emptyLocation;
-    private int size;
-    private bool randomSpace = true;
 
     public ActionList Aclist = new();
 
@@ -80,7 +80,7 @@ public class PuzzleManager : MonoBehaviour
     void Start()
     {
         pieces = new List<Transform>();
-        size = 3;
+       // size = 2;
         CreateGamePieces(0.01f);
         Shuffle();
     }
