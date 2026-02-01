@@ -111,13 +111,26 @@ public struct AsyncScene
 
     public void SetEnabled(bool isEnabled) 
     { 
-        isEnabled_ = isEnabled; 
+        isEnabled_ = isEnabled;
+        List<GameObject> dontEnableOnSceneLoad = new List<GameObject>();
         if (isEnabled_) // if enabled = true, set all objects in scene to active
         {
             GameObject[] objs = this.scene_.GetRootGameObjects();
+            // Look for a "dont enable" list in the scene
             foreach (GameObject obj in objs)
             {
-                obj.SetActive(true);
+                if (obj.GetComponent<DontEnableOnSceneLoad>())
+                {
+                    dontEnableOnSceneLoad = obj.GetComponent<DontEnableOnSceneLoad>().dontEnableOnSceneLoad;
+                }
+            }
+            foreach (GameObject obj in objs)
+            {
+                // If it's not on the skip enable list, activate it
+                if (!dontEnableOnSceneLoad.Contains(obj))
+                {
+                    obj.SetActive(true);
+                }
             }
         }
         else // if enabled = false, set all objects in scene to inactive
