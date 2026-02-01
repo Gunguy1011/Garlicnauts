@@ -40,7 +40,7 @@ public class ActionFade : Action
         float newalpha = StartFade_ + (EndFade_ - StartFade_) * PercentageDone_;
         Mathf.Clamp01(newalpha);
 
-        Actoor.GetComponent<Renderer>().material.color = new Color(Actoor.GetComponent<Renderer>().material.color.r, Actoor.GetComponent<Renderer>().material.color.g, Actoor.GetComponent<Renderer>().material.color.b, newalpha);
+        Actoor.GetComponent<MeshRenderer>().material.color = new Color(Actoor.GetComponent<MeshRenderer>().material.color.r, Actoor.GetComponent<MeshRenderer>().material.color.g, Actoor.GetComponent<MeshRenderer>().material.color.b, newalpha);
 
         if (PercentageDone_ >= 1.0)
             return false;
