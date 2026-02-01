@@ -199,8 +199,11 @@ public class ActionList
     {
         Actions.Add(new ActionTimer(duration, time, type, block_, blocknum_));
     }
-    
 
+    public void EnableScene(GameObject objectM, string sceneToEnable, float duration = 0.0f, float time = 0.0f, EaseType type = 0, bool block_ = false, int blocknum_ = 0)
+    {
+        Actions.Add(new ActionEnableScene(objectM, sceneToEnable, duration, time, type, block_, blocknum_));
+    }
 
 }
 

@@ -1,4 +1,3 @@
-using OpenCover.Framework.Model;
 using UnityEngine;
 using UnityEngine.Rendering;
 public class GameManager : MonoBehaviour
