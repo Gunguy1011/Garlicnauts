@@ -150,8 +150,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameTransform: {fileID: 268386400}
   piecePrefab: {fileID: 5727298022108725250, guid: 0c5543d2fa7900c45902fd829c850198, type: 3}
+  piecePrefab2: []
   size: 4
   randomSpace: 0
+  box: {fileID: 947966770}
 --- !u!4 &128489110
 Transform:
   m_ObjectHideFlags: 0
@@ -392,6 +394,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &947966770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5957576659482378489, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+  m_PrefabInstance: {fileID: 2341161622616282700}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1743625846
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1801911990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,7 +583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957576659482378489, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x

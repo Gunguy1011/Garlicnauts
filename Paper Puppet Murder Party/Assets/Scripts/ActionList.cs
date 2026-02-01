@@ -205,5 +205,16 @@ public class ActionList
         Actions.Add(new ActionEnableScene(objectM, sceneToEnable, duration, time, type, block_, blocknum_));
     }
 
+    public void IsDestroyed(GameObject objectM, float duration = 0.0f, float time = 0.0f, EaseType type = 0, bool block_ = false, int blocknum_ = 0)
+    {
+        Actions.Add(new ActionIsDestroyed(objectM, duration, time, type, block_, blocknum_));
+    }
+
+    public void Activate(GameObject objectM, float duration = 0.0f, float time = 0.0f, EaseType type = 0, bool block_ = false, int blocknum_ = 0)
+    {
+        Actions.Add(new ActionActivate(objectM, duration, time, type, block_, blocknum_));
+    }
+
+
 }
 

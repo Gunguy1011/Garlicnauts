@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using FMODUnity;
 
 
 public class DialogueBox : MonoBehaviour
@@ -9,6 +10,8 @@ public class DialogueBox : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
+    public FMODEventPlayable[] FMODEventsiHopeThisIsRight;
+    
 
     private int index;
 
