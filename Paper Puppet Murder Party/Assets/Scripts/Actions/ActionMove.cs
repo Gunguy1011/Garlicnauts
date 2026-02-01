@@ -12,6 +12,9 @@ public class ActionMove : Action
 
     public Vector3 EndPosition_;
 
+    public Transform StartPositionTransform_;
+    public Transform EndPositionTransform_;
+
     public float MoveSpeed_;
 
     public ActionMove(GameObject objectM, Vector3 start, Vector3 end, float duration = 0.0f, float time = 0.0f, EaseType type = 0, bool block_ = false, int blocknum_ = 0)
@@ -30,6 +33,12 @@ public class ActionMove : Action
     // Update is called once per frame
     override public bool Update()
     {
+        if (StartPositionTransform_ && EndPositionTransform_)
+        {
+            StartPosition_ = StartPositionTransform_.position;
+            EndPosition_ = EndPositionTransform_.position;
+        }
+
         Actoor.transform.localPosition = Vector3.Lerp(StartPosition_, EndPosition_, PercentageDone_);
 
         if (Actoor.transform.localPosition == EndPosition_ || PercentageDone_ >= 1.0f)
