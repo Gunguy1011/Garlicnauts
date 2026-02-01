@@ -10,6 +10,7 @@ public class PuzzleManager : MonoBehaviour
     //[SerializeField] private GameObject win;
     [SerializeField] public int size = 3;
     [SerializeField] public bool randomSpace = true;
+    [SerializeField] public GameObject box;
 
     private List<Transform> pieces;
     private int emptyLocation;
@@ -83,6 +84,7 @@ public class PuzzleManager : MonoBehaviour
        // size = 2;
         CreateGamePieces(0.01f);
         Shuffle();
+      
     }
 
     // Update is called once per frame
@@ -151,6 +153,10 @@ public class PuzzleManager : MonoBehaviour
             (pieces[i].localPosition, pieces[i + offset].localPosition) = ((pieces[i + offset].localPosition, pieces[i].localPosition));
 
             emptyLocation = i;
+
+            //sound here
+
+
             return true;
         }
         return false;
