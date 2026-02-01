@@ -93,6 +93,18 @@ public class PuzzleManager : MonoBehaviour
             Aclist.Update(Time.deltaTime);
         }
 
+        // Cheat code key
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Aclist.blocked = true;
+            Aclist.FadeMesh(pieces[emptyLocation].gameObject, 0, 1, 1, 0, Action.EaseType.None, true, 1);
+            Aclist.EnableScene(null, "MainGame", 0, 0, Action.EaseType.None, true, 1);
+
+            pieces[emptyLocation].GetComponent<MeshRenderer>().material.color = new Color(pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.r, pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.g, pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.b, 0);
+            pieces[emptyLocation].gameObject.SetActive(true);
+            won = true;
+        }
+
         if (Input.GetMouseButtonDown(0) && !won)
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
@@ -112,7 +124,10 @@ public class PuzzleManager : MonoBehaviour
 
                 if(CheckCompletion())
                 {
-                    Aclist.FadeMesh(pieces[emptyLocation].gameObject, 0, 1, 1, 0, Action.EaseType.None);
+                    Aclist.blocked = true;
+
+                    Aclist.FadeMesh(pieces[emptyLocation].gameObject, 0, 1, 1, 0, Action.EaseType.None, true, 1);
+                    Aclist.EnableScene(null, "MainGame", 0, 0, Action.EaseType.None, true, 1);
 
                     pieces[emptyLocation].GetComponent<MeshRenderer>().material.color = new Color(pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.r, pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.g, pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.b, 0);
                     pieces[emptyLocation].gameObject.SetActive(true);
