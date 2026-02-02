@@ -121,7 +121,7 @@ public class PuzzleManager : MonoBehaviour
         }
 
         // Cheat code key
-        if (Input.GetKeyDown(KeyCode.Space) && debug)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Aclist.blocked = true;
             Aclist.FadeMesh(pieces[emptyLocation].gameObject, 0, 1, 1, 0, Action.EaseType.None, true, 1);

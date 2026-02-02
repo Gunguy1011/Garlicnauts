@@ -770,11 +770,12 @@ MonoBehaviour:
   gameTransform: {fileID: 1386474784}
   piecePrefab: {fileID: 5727298022108725250, guid: 0c5543d2fa7900c45902fd829c850198, type: 3}
   piecePrefab2: []
-  size: 3
+  size: 4
   randomSpace: 1
   box: {fileID: 0}
   dagger: {fileID: 8252074065672576874, guid: 0c5543d2fa7900c45902fd829c850198, type: 3}
   poison: {fileID: 8252074065672576874, guid: c270d7a1152c17445b14d8bdb52c55b4, type: 3}
+  rope: {fileID: 8252074065672576874, guid: 277ba3a358ea2c44988b37bf67acc3ce, type: 3}
 --- !u!4 &1765070183
 Transform:
   m_ObjectHideFlags: 0

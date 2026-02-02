@@ -152,9 +152,9 @@ MonoBehaviour:
   - SplashScreen
   - MainMenu
   - MainGame
-  - Minigame_ReddHerring
-  - Minigame_FemmeFatal
-  - Minigame_AlEKatt
+  - Minigame_1
+  - Minigame_2
+  - Minigame_3
 --- !u!4 &480059868
 Transform:
   m_ObjectHideFlags: 0
