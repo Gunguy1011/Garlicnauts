@@ -12,12 +12,17 @@ public class PuzzleManager : MonoBehaviour
     [SerializeField] public bool randomSpace = true;
     [SerializeField] public GameObject box;
 
+    public GameObject dagger;
+    public GameObject poison;
+
     private List<Transform> pieces;
     private int emptyLocation;
 
     public ActionList Aclist = new();
 
     private bool won = false;
+
+    private bool debug = false;
 
     private void CreateGamePieces(float gapThickness)
     {
@@ -80,6 +85,21 @@ public class PuzzleManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
+
+        switch (size)
+        {
+            case 2:
+                piecePrefab = poison.transform;
+                break;
+            default:
+                piecePrefab = dagger.transform;
+                break;
+            
+
+                break;
+        }
+
         pieces = new List<Transform>();
        // size = 2;
         CreateGamePieces(0.01f);
@@ -96,7 +116,7 @@ public class PuzzleManager : MonoBehaviour
         }
 
         // Cheat code key
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && debug)
         {
             Aclist.blocked = true;
             Aclist.FadeMesh(pieces[emptyLocation].gameObject, 0, 1, 1, 0, Action.EaseType.None, true, 1);
@@ -183,6 +203,11 @@ public class PuzzleManager : MonoBehaviour
             else if (SwapIfValid(rnd, -1, 0)) { ++count; }
             else if (SwapIfValid(rnd, +1, size - 1)) { ++count; }
 
+        }
+
+        if(CheckCompletion())
+        {
+            Shuffle();
         }
 
     }
