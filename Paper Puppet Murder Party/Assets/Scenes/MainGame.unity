@@ -237,7 +237,8 @@ GameObject:
   m_Component:
   - component: {fileID: 12147060}
   - component: {fileID: 12147059}
-  - component: {fileID: 12147058}
+  - component: {fileID: 12147062}
+  - component: {fileID: 12147061}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -245,14 +246,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &12147058
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12147057}
-  m_Enabled: 1
 --- !u!20 &12147059
 Camera:
   m_ObjectHideFlags: 0
@@ -319,6 +312,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &12147061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12147057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
+--- !u!114 &12147062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12147057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 2
+  Banks:
+  - Master
+  CollisionTag: 
+  PreloadSamples: 0
 --- !u!1 &24916232
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,6 +531,50 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: 'The killer must be in this very room! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Path
+      value: event:/Voice/Georgia/09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -3701126
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1116015977
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -824696672
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 569237160
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data1
+      value: -1784709454
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data2
+      value: 1169698895
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data3
+      value: 2081695130
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data4
+      value: -139999312
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -742,6 +811,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/39
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 2116757946
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1118412156
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -1155525470
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -221148641
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -1465,6 +1558,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 1551571041
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1271159886
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 1779017616
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 1719464398
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1926,6 +2043,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -1264074123
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1237117836
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -1320702791
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -760637498
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2048,6 +2189,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[0]'
       value: Really, I-
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 1234998221
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1208410448
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 978232198
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -1331522349
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -2339,6 +2504,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/33
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -429707230
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1277646245
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 523899532
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 716309731
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -2884,6 +3073,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[0]'
       value: Mrs. Psych, don't you think we should wait for the authorities to arrive?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 1676239246
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1211987569
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -872046409
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -1873489029
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3010,6 +3223,50 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Path
+      value: event:/Voice/Georgia/11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -984239382
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1332893480
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -1502505306
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -757944801
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data1
+      value: 944408352
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data2
+      value: 1317444453
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data3
+      value: -728096621
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data4
+      value: -1454595133
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -3256,6 +3513,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[0]'
       value: 'I''ll- I''ll call an ambulance. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -30287309
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1210766413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -238356332
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -753579493
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -3796,6 +4077,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -1549715804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1078313249
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 298167204
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 232240067
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3925,6 +4230,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/07
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 820352470
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1079946218
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -128214083
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -417726762
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -4093,6 +4422,10 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[5]'
       value: 'When reached for comment, Mrs Psych was quoted as saying:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -4331,6 +4664,10 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[0]'
       value: I'm okay, but...
+      objectReference: {fileID: 0}
+    - target: {fileID: 7803391981908202788, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: EventPlayTrigger
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -5031,6 +5368,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 1048766197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1171399375
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 2088535468
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 376527360
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5324,6 +5685,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -1658330543
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1193788249
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 196857532
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -1132736664
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5615,6 +6000,70 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[2]'
       value: This is just like in my stories!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Path
+      value: event:/Voice/Georgia/05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[2].Path
+      value: event:/Voice/Georgia/06
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 123572671
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1253803070
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 2138572477
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 1038397517
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data1
+      value: -1746188562
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data2
+      value: 1234037359
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data3
+      value: 1396599943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data4
+      value: -1570657350
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[2].Guid.Data1
+      value: 1462757720
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[2].Guid.Data2
+      value: 1189426571
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[2].Guid.Data3
+      value: 1387859355
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[2].Guid.Data4
+      value: -1805555825
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -6217,6 +6666,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -328739255
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1152795715
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 310881456
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 1331968768
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6344,6 +6817,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -1897334441
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1250440493
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 1799385009
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 1678695178
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6470,6 +6967,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -2008929065
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1137333289
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 1957328546
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -962868406
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -6801,6 +7322,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -1719232665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1292163948
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 2006233496
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 856917025
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7093,6 +7638,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -1322976550
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1239803704
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -457995118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 106502120
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -7399,6 +7968,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/06
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 1050541406
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1219321055
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -2049354357
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -786896882
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7670,6 +8263,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -110987705
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1198076301
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 241089411
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -1576905592
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -8163,6 +8780,30 @@ PrefabInstance:
       value: Oh, nonsense! I'm sure I can have this case solved in the wink of an
         eye!
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/07
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 1700308448
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1199408330
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -271126879
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -379639138
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -8603,6 +9244,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 2145325472
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1139145720
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 847490479
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 811312298
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -8886,6 +9551,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[0]'
       value: A Mystery!
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -1754636129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1250330100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -1726684265
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 89422985
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -9008,6 +9697,10 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[0]'
       value: The director...!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7803391981908202788, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: EventPlayTrigger
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -9365,6 +10058,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 1206523365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1141931748
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 513842315
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -683956582
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -9492,6 +10209,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -1380162720
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1266163592
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 602491798
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -94080139
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -9618,6 +10359,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 1432629990
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1312800675
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -1328463740
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 1158093797
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -10166,6 +10931,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 213549863
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1336875881
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 598603191
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 1567481943
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -10292,6 +11081,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -2121404100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1295141719
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -217613156
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -729988752
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -10451,6 +11264,46 @@ PrefabInstance:
         was popular or would get the best reviews on Rotten Potato. She wasn\u2019t
         interested in\u2026 in the craft, in innovation! Just in the same old tired
         cliches"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: 'FMODEventsiHopeThisIsRight.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1922448872}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 2012520129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1190525516
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 1406005432
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -103119131
+      objectReference: {fileID: 0}
+    - target: {fileID: 7803391981908202788, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: EventPlayTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7803391981908202788, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7803391981908202788, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -10736,6 +11589,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[0]'
       value: I can't believe it... In my own ballroom...
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 1898830747
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1097043649
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -2108499062
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 1912037728
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -11077,6 +11954,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 1785459389
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1246763569
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -871612272
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -435245153
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -11726,6 +12627,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
   m_PrefabInstance: {fileID: 1719808334}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1922448872 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7803391981908202788, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+  m_PrefabInstance: {fileID: 1719808334}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482758303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1924417026
 GameObject:
   m_ObjectHideFlags: 0
@@ -12080,6 +12992,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: -1056530829
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1232431713
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 1965528243
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: 448831481
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -12315,6 +13251,30 @@ PrefabInstance:
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
       objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Femme/09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 963730537
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1102541968
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -564697196
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -2031777425
+      objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -12485,6 +13445,90 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[5]'
       value: 'When reached for comment, Mrs Psych was quoted as saying:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/39
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Path
+      value: event:/Voice/Georgia/40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[2].Path
+      value: event:/Voice/Georgia/41
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[3].Path
+      value: event:/Voice/Georgia/42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 2116757946
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1118412156
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: -1155525470
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -221148641
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data1
+      value: -867546596
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data2
+      value: 1130839788
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data3
+      value: 257027248
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[1].Guid.Data4
+      value: -1601634303
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[2].Guid.Data1
+      value: -1509053135
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[2].Guid.Data2
+      value: 1259472828
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[2].Guid.Data3
+      value: -1329830980
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[2].Guid.Data4
+      value: -491011156
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[3].Guid.Data1
+      value: 523036590
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[3].Guid.Data2
+      value: 1189983658
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[3].Guid.Data3
+      value: -1243674477
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[3].Guid.Data4
+      value: -1839349058
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x
@@ -12973,6 +14017,30 @@ PrefabInstance:
     - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: 'lines.Array.data[1]'
       value: Who'd like to go first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Path
+      value: event:/Voice/Georgia/37
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data1
+      value: 997328570
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data2
+      value: 1109442783
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data3
+      value: 160918462
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492403027658106448, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
+      propertyPath: FMODEventsiHopeThisIsRight.Array.data[0].Guid.Data4
+      value: -21462119
       objectReference: {fileID: 0}
     - target: {fileID: 8502067116381331578, guid: ba6a9630b2e706d44a25cab916258c0e, type: 3}
       propertyPath: m_Pivot.x

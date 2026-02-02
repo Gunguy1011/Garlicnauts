@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{d0bf72de-0c45-4a5d-8697-045ea8707eba}">
+		<property name="assetPath">
+			<value>Voice/Georgia/21.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>5.1177916666666663</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7a5bce6-c66b-4a61-9eea-803fc4b8e9f0}</destination>
+		</relationship>
+	</object>
+</objects>

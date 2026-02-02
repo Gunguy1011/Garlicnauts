@@ -11,7 +11,7 @@ public class DialogueBox : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
-    public FMODEventPlayable[] FMODEventsiHopeThisIsRight;
+    public FMODUnity.EventReference[] FMODEventsiHopeThisIsRight;
 
    
 
@@ -86,8 +86,8 @@ public class DialogueBox : MonoBehaviour
 
     void StartDialogue()
     {
-        index = 0;
-        StartCoroutine(TypeLine());
+        index = -1;
+        NextLine();
     }
 
     IEnumerator TypeLine()
@@ -105,6 +105,10 @@ public class DialogueBox : MonoBehaviour
         if (index < lines.Length - 1)
         {
             index++;
+            if (index < FMODEventsiHopeThisIsRight.Length)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot(FMODEventsiHopeThisIsRight[index]);
+            }
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{550fe7b0-64e3-4f7e-b325-0ee27a30200d}">
+		<property name="name">
+			<value>Gamestate</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fae9eb15-d273-4a13-a750-f52797458a72}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6259c136-768c-4833-9ae6-75b3495aca2a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6259c136-768c-4833-9ae6-75b3495aca2a}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>14</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Menu</value>
+			<value>Intro</value>
+			<value>Intro Dialogue</value>
+			<value>Al Intro</value>
+			<value>Al Puzzle</value>
+			<value>Al Complete</value>
+			<value>Redd Intro</value>
+			<value>Redd Puzzle</value>
+			<value>Redd Complete</value>
+			<value>Femme Intro</value>
+			<value>Femme Puzzle</value>
+			<value>Femme Complete</value>
+			<value>Outro</value>
+			<value>Credits</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

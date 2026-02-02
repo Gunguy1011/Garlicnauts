@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a31a1366-5e33-418f-9211-3a2e84a0b511}">
+		<property name="assetPath">
+			<value>Voice/Femme/16.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.2023958333333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7a5bce6-c66b-4a61-9eea-803fc4b8e9f0}</destination>
+		</relationship>
+	</object>
+</objects>
