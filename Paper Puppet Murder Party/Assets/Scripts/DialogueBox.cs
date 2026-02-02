@@ -12,8 +12,9 @@ public class DialogueBox : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     public FMODUnity.EventReference[] FMODEventsiHopeThisIsRight;
+    public FMODUnity.EventReference FMODScrollEvent;
 
-   
+
 
     [SerializeField]
     public Sprite Georgia;//0
@@ -96,6 +97,10 @@ public class DialogueBox : MonoBehaviour
         {
             textComponent.text += c;
             //play typewriter sound
+            if(FMODEventsiHopeThisIsRight.Length == 0)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot(FMODScrollEvent);
+            }
             yield return new WaitForSeconds(textSpeed);
         }
     }

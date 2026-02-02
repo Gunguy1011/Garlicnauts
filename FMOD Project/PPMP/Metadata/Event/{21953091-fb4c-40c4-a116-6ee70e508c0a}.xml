@@ -112,6 +112,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{918c5cc0-df83-4fe8-8c86-a3f6674f475a}">
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{67c33192-497e-4842-98c3-e3f82ae090c3}</destination>
 		</relationship>

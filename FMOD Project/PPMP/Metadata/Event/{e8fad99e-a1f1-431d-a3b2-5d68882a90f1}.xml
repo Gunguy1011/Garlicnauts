@@ -93,6 +93,8 @@
 	<object class="MixerBusPanner" id="{0beb4ad9-a133-479e-a82b-b15b056dd547}" />
 	<object class="MixerBusEffectChain" id="{2a7a0ee0-6303-4de3-b5a7-23e3c0f7227e}">
 		<relationship name="effects">
+			<destination>{526c8b56-8759-4a16-8a76-15bca8e49052}</destination>
+			<destination>{5107bd9b-5946-449e-8e18-0193ebbaa3f8}</destination>
 			<destination>{c461e486-54b3-4d37-83b6-c2a185513d2e}</destination>
 		</relationship>
 	</object>
@@ -106,5 +108,42 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{4e25c45e-b6e3-4e87-9a8e-2b3aaa331fde}" />
+	<object class="ThreeEQEffect" id="{526c8b56-8759-4a16-8a76-15bca8e49052}">
+		<property name="inputGainEnabled">
+			<value>true</value>
+		</property>
+		<property name="inputGain">
+			<value>10</value>
+		</property>
+		<property name="lowGain">
+			<value>-18.5</value>
+		</property>
+		<property name="midGain">
+			<value>-27</value>
+		</property>
+		<property name="lowCrossover">
+			<value>900</value>
+		</property>
+		<property name="highCrossover">
+			<value>4600</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{5107bd9b-5946-449e-8e18-0193ebbaa3f8}">
+		<property name="threshold">
+			<value>-31.5</value>
+		</property>
+		<property name="ratio">
+			<value>16.5</value>
+		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>98</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c461e486-54b3-4d37-83b6-c2a185513d2e}" />
 </objects>

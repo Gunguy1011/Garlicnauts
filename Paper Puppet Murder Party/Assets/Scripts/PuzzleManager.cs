@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using FMODUnity;
 public class PuzzleManager : MonoBehaviour
 {
     [SerializeField] private Transform gameTransform;
@@ -15,6 +15,9 @@ public class PuzzleManager : MonoBehaviour
     public GameObject dagger;
     public GameObject poison;
     public GameObject rope;
+
+    public FMODUnity.EventReference[] FMODMoveEvents;
+    public FMODUnity.EventReference FMODWinEvent;
 
     private List<Transform> pieces;
     private int emptyLocation;
@@ -145,11 +148,15 @@ public class PuzzleManager : MonoBehaviour
                         if (SwapIfValid(i, +size, size)) { break; }
                         if (SwapIfValid(i, -1, 0)) { break; }
                         if (SwapIfValid(i, +1, size - 1)) { break; }
-
                     }
                 }
 
-                if(CheckCompletion())
+                foreach (FMODUnity.EventReference e in FMODMoveEvents)
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot(e);
+                }
+
+                if (CheckCompletion())
                 {
                     Aclist.blocked = true;
 
@@ -158,6 +165,7 @@ public class PuzzleManager : MonoBehaviour
 
                     pieces[emptyLocation].GetComponent<MeshRenderer>().material.color = new Color(pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.r, pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.g, pieces[emptyLocation].GetComponent<MeshRenderer>().material.color.b, 0);
                     pieces[emptyLocation].gameObject.SetActive(true);
+                    FMODUnity.RuntimeManager.PlayOneShot(FMODWinEvent);
                     won = true;
 
                 }
