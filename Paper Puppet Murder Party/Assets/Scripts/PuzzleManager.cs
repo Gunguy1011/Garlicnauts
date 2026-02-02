@@ -14,6 +14,7 @@ public class PuzzleManager : MonoBehaviour
 
     public GameObject dagger;
     public GameObject poison;
+    public GameObject rope;
 
     private List<Transform> pieces;
     private int emptyLocation;
@@ -92,11 +93,15 @@ public class PuzzleManager : MonoBehaviour
             case 2:
                 piecePrefab = poison.transform;
                 break;
-            default:
+            case 3:
+
                 piecePrefab = dagger.transform;
                 break;
-            
-
+            case 4:
+                piecePrefab = rope.transform;
+                break;
+            default:
+                piecePrefab = rope.transform;
                 break;
         }
 
