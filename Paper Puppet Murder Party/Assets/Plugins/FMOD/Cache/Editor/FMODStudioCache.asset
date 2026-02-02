@@ -54,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1400
+--- !u!114 &-9038894282933777395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Redd/IsShe
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Redd/IsShe
+  Guid:
+    Data1: -51834498
+    Data2: 1155220124
+    Data3: -1774775382
+    Data4: -73145270
+  Banks:
+  - {fileID: -8477332043539372733}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-9032153162577292608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,10 +177,10 @@ MonoBehaviour:
   Path: ../FMOD Project/PPMP/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639055626485806654
+  lastModified: 639055633813858405
   FileSizes:
   - Name: Desktop
-    Value: 13695232
+    Value: 13736416
   Exists: 1
 --- !u!114 &-8308326571665822904
 MonoBehaviour:
@@ -398,6 +425,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-6067798747637505572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Al/Misc_4
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Al/Misc_4
+  Guid:
+    Data1: 1207539141
+    Data2: 1083894965
+    Data3: 1039622035
+    Data4: -431324871
+  Banks:
+  - {fileID: -8477332043539372733}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5637282025212280434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -629,10 +683,10 @@ MonoBehaviour:
   Path: ../FMOD Project/PPMP/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639055626485861760
+  lastModified: 639055633813908448
   FileSizes:
   - Name: Desktop
-    Value: 4420
+    Value: 4696
   Exists: 1
 --- !u!114 &-3090859401705656260
 MonoBehaviour:
@@ -1358,6 +1412,13 @@ MonoBehaviour:
   - {fileID: -6447623531035361217}
   - {fileID: -8659367340333149554}
   - {fileID: 3101686826396177601}
+  - {fileID: 6634804387829116495}
+  - {fileID: 6611639601797592754}
+  - {fileID: 7384566951521402389}
+  - {fileID: -9038894282933777395}
+  - {fileID: 2672204252966393847}
+  - {fileID: -6067798747637505572}
+  - {fileID: 2700607143482640304}
   EditorParameters:
   - {fileID: 2843039859170988949}
   MasterBanks:
@@ -1365,7 +1426,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3903021345766665495}
   cacheVersion: 131858
-  cacheTime: 639055626485861760
+  cacheTime: 639055633813908448
   SerializableEventsDict:
   - key: event:/Gamestates/Redd Complete
     index: 0
@@ -1547,6 +1608,20 @@ MonoBehaviour:
     index: 88
   - key: event:/Voice/Femme/16
     index: 89
+  - key: event:/Voice/Al/Misc_2
+    index: 90
+  - key: event:/Voice/Al/Misc_1
+    index: 91
+  - key: event:/Voice/Al/Misc_3
+    index: 92
+  - key: event:/Voice/Redd/IsShe
+    index: 93
+  - key: event:/Voice/Redd/TheDirector
+    index: 94
+  - key: event:/Voice/Al/Misc_4
+    index: 95
+  - key: event:/Voice/Redd/Huh
+    index: 96
 --- !u!114 &8695402501905095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,6 +1919,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5226
+--- !u!114 &2672204252966393847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Redd/TheDirector
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Redd/TheDirector
+  Guid:
+    Data1: -631823990
+    Data2: 1230418131
+    Data3: -1911073862
+    Data4: 1060087908
+  Banks:
+  - {fileID: -8477332043539372733}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2700607143482640304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Redd/Huh
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Redd/Huh
+  Guid:
+    Data1: 398853347
+    Data2: 1233671445
+    Data3: 1845190807
+    Data4: 791597694
+  Banks:
+  - {fileID: -8477332043539372733}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &2759734650102157272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2408,6 +2537,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1500
+--- !u!114 &6611639601797592754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Al/Misc_1
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Al/Misc_1
+  Guid:
+    Data1: 444701506
+    Data2: 1113775024
+    Data3: 730588802
+    Data4: 1770734570
+  Banks:
+  - {fileID: -8477332043539372733}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6634804387829116495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Al/Misc_2
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Al/Misc_2
+  Guid:
+    Data1: -1814361034
+    Data2: 1193285693
+    Data3: -997878876
+    Data4: 2106929908
+  Banks:
+  - {fileID: -8477332043539372733}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6670695666734233652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2516,6 +2699,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 595
+--- !u!114 &7384566951521402389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Al/Misc_3
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Al/Misc_3
+  Guid:
+    Data1: -557779606
+    Data2: 1323510727
+    Data3: 1969177751
+    Data4: -2032148416
+  Banks:
+  - {fileID: -8477332043539372733}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7450438931256894624
 MonoBehaviour:
   m_ObjectHideFlags: 0
