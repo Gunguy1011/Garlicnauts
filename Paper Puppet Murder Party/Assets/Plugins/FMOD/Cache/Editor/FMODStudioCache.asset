@@ -1,5 +1,1191 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9007953123208793032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/13
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/13
+  Guid:
+    Data1: -1719232665
+    Data2: 1292163948
+    Data3: 2006233496
+    Data4: 856917025
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 842
+--- !u!114 &-8898973355121724684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Al Puzzle
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Al Puzzle
+  Guid:
+    Data1: 1529327702
+    Data2: 1193264067
+    Data3: -2114754154
+    Data4: -890014642
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7932938200454164117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Mini-Game_PuzzleSlide
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Mini-Game_PuzzleSlide
+  Guid:
+    Data1: -386213474
+    Data2: 1126015473
+    Data3: 1750971043
+    Data4: -242210168
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-7797083616600932479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/32
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/32
+  Guid:
+    Data1: 2145325472
+    Data2: 1139145720
+    Data3: 847490479
+    Data4: 811312298
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2480
+--- !u!114 &-7676004819784081067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/35
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/35
+  Guid:
+    Data1: -1322976550
+    Data2: 1239803704
+    Data3: -457995118
+    Data4: 106502120
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2211
+--- !u!114 &-7596040843063170003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/02
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/02
+  Guid:
+    Data1: 1676239246
+    Data2: 1211987569
+    Data3: -872046409
+    Data4: -1873489029
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
+--- !u!114 &-7574729548872413888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/17
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/17
+  Guid:
+    Data1: 472345224
+    Data2: 1223147573
+    Data3: -1864850045
+    Data4: 1647714590
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2976
+--- !u!114 &-7109979178004456068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/03
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/03
+  Guid:
+    Data1: 1234998221
+    Data2: 1208410448
+    Data3: 978232198
+    Data4: -1331522349
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 816
+--- !u!114 &-6777037989282664028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Clicks/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 3630544171
+    data2: 2446636740
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6536810323113460405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Redd Complete
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Redd Complete
+  Guid:
+    Data1: 446339079
+    Data2: 1096885564
+    Data3: 1069563825
+    Data4: 2104345316
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6197009986167842942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Characters/Redd/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Characters/Redd/Footsteps
+  Guid:
+    Data1: 254915513
+    Data2: 1323995041
+    Data3: -1108116605
+    Data4: -670445578
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &-5629752018424845759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/06
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/06
+  Guid:
+    Data1: 1462757720
+    Data2: 1189426571
+    Data3: 1387859355
+    Data4: -1805555825
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2142
+--- !u!114 &-5133789832191520744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/28
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/28
+  Guid:
+    Data1: -1380162720
+    Data2: 1266163592
+    Data3: 602491798
+    Data4: -94080139
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3333
+--- !u!114 &-5027294593930961511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/16
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/16
+  Guid:
+    Data1: 1145301735
+    Data2: 1274728130
+    Data3: -1792680304
+    Data4: 747375910
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2756
+--- !u!114 &-4601861949032891029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/42
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/42
+  Guid:
+    Data1: 523036590
+    Data2: 1189983658
+    Data3: -1243674477
+    Data4: -1839349058
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 576
+--- !u!114 &-4281831167829935355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/34
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/34
+  Guid:
+    Data1: -1897334441
+    Data2: 1250440493
+    Data3: 1799385009
+    Data4: 1678695178
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2142
+--- !u!114 &-4223845317144658114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Intro
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Intro
+  Guid:
+    Data1: -1088714363
+    Data2: 1288845469
+    Data3: -443139959
+    Data4: 590552351
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4211262209400330947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Femme Puzzle
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Femme Puzzle
+  Guid:
+    Data1: 1557680502
+    Data2: 1295192092
+    Data3: -189479782
+    Data4: -833076670
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4070581386298101164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/11
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/11
+  Guid:
+    Data1: 213549863
+    Data2: 1336875881
+    Data3: 598603191
+    Data4: 1567481943
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9761
+--- !u!114 &-3882700829673752265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Outro
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Outro
+  Guid:
+    Data1: -781631609
+    Data2: 1181526787
+    Data3: 5541538
+    Data4: 1212196368
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3810111831585361388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/15
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/15
+  Guid:
+    Data1: -327025256
+    Data2: 1171290386
+    Data3: 250104766
+    Data4: -376675525
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3571
+--- !u!114 &-3752361275555698951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/23
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/23
+  Guid:
+    Data1: 471346279
+    Data2: 1121404200
+    Data3: 1179306890
+    Data4: -707737454
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6219
+--- !u!114 &-3632367292782234096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/09
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/09
+  Guid:
+    Data1: -1784709454
+    Data2: 1169698895
+    Data3: 2081695130
+    Data4: -139999312
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2458
+--- !u!114 &-3480707283502571976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/05
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/05
+  Guid:
+    Data1: -1746188562
+    Data2: 1234037359
+    Data3: 1396599943
+    Data4: -1570657350
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4196
+--- !u!114 &-3359367038637389043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/08
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/08
+  Guid:
+    Data1: -3701126
+    Data2: 1116015977
+    Data3: -824696672
+    Data4: 569237160
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3602
+--- !u!114 &-3286050582537445861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Clicks
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Clicks
+  Guid:
+    Data1: 666130635
+    Data2: 1120448224
+    Data3: 27167118
+    Data4: -737350579
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6777037989282664028}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1138
+--- !u!114 &-2998838862657682469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Characters/Femme/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Characters/Femme/Footsteps
+  Guid:
+    Data1: 1691221275
+    Data2: 1324173790
+    Data3: 1694350479
+    Data4: -1952591824
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &-2844975809792947607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/06
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/06
+  Guid:
+    Data1: 1050541406
+    Data2: 1219321055
+    Data3: -2049354357
+    Data4: -786896882
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12857
+--- !u!114 &-2685777651350412067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/16
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/16
+  Guid:
+    Data1: 1048766197
+    Data2: 1171399375
+    Data3: 2088535468
+    Data4: 376527360
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2202
+--- !u!114 &-2575631908700492309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/30
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/30
+  Guid:
+    Data1: 1432629990
+    Data2: 1312800675
+    Data3: -1328463740
+    Data4: 1158093797
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2762
+--- !u!114 &-2160170550718695607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Characters/Georgia/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Characters/Georgia/Footsteps
+  Guid:
+    Data1: 1440572339
+    Data2: 1123586060
+    Data3: 183889025
+    Data4: 2006822234
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &-2156178616392322336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/21
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/21
+  Guid:
+    Data1: 1627101707
+    Data2: 1105780472
+    Data3: 845274046
+    Data4: -55965953
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5117
+--- !u!114 &-1997479450868552955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/03
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/03
+  Guid:
+    Data1: -1754636129
+    Data2: 1250330100
+    Data3: -1726684265
+    Data4: 89422985
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1245
+--- !u!114 &-1860664887338075541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/08
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/08
+  Guid:
+    Data1: 1785459389
+    Data2: 1246763569
+    Data3: -871612272
+    Data4: -435245153
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5238
+--- !u!114 &-1657176477048487840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/01
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/01
+  Guid:
+    Data1: 2012520129
+    Data2: 1190525516
+    Data3: 1406005432
+    Data4: -103119131
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2619
+--- !u!114 &-1656430254218981923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/10
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/10
+  Guid:
+    Data1: -984239382
+    Data2: 1332893480
+    Data3: -1502505306
+    Data4: -757944801
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3956
+--- !u!114 &-1632367980263519041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/22
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/22
+  Guid:
+    Data1: 1260929229
+    Data2: 1270443651
+    Data3: -2107911772
+    Data4: -691100382
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5578
+--- !u!114 &-1315936593089945554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/02
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/02
+  Guid:
+    Data1: 1898830747
+    Data2: 1097043649
+    Data3: -2108499062
+    Data4: 1912037728
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2857
+--- !u!114 &-1279721511952166675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/29
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/29
+  Guid:
+    Data1: -2008929065
+    Data2: 1137333289
+    Data3: 1957328546
+    Data4: -962868406
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 870
+--- !u!114 &-1148832829584893070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Al Intro
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Al Intro
+  Guid:
+    Data1: -1815383271
+    Data2: 1109001712
+    Data3: -1646101313
+    Data4: -629553484
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-948674530322706967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Intro Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Intro Dialogue
+  Guid:
+    Data1: -1308765210
+    Data2: 1182058767
+    Data3: 946025620
+    Data4: -1916384563
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-517311037220259262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/39
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/39
+  Guid:
+    Data1: 2116757946
+    Data2: 1118412156
+    Data3: -1155525470
+    Data4: -221148641
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 595
+--- !u!114 &-440167618578724277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Redd Intro
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Redd Intro
+  Guid:
+    Data1: -933198518
+    Data2: 1182026929
+    Data3: -466441085
+    Data4: -1406295478
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-30677246401435997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/10
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/10
+  Guid:
+    Data1: -328739255
+    Data2: 1152795715
+    Data3: 310881456
+    Data4: 1331968768
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14895
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17,16 +1203,1055 @@ MonoBehaviour:
   - {fileID: 8415085545754320421}
   EditorEvents:
   - {fileID: 7560595745002435955}
-  EditorParameters: []
+  - {fileID: -6536810323113460405}
+  - {fileID: -2156178616392322336}
+  - {fileID: 2675516590659971083}
+  - {fileID: 1380885304004309329}
+  - {fileID: -1148832829584893070}
+  - {fileID: 7376308864250522661}
+  - {fileID: -2998838862657682469}
+  - {fileID: 9074529389893406760}
+  - {fileID: 5794407424759556524}
+  - {fileID: 3551025664528540496}
+  - {fileID: 4066505490453415720}
+  - {fileID: 5080666929827160002}
+  - {fileID: 2691703770503398651}
+  - {fileID: -4070581386298101164}
+  - {fileID: 3321699726843741003}
+  - {fileID: 1178994626699438379}
+  - {fileID: 2705692727230396787}
+  - {fileID: 3605914852076814688}
+  - {fileID: 779774270764025044}
+  - {fileID: 5685710466477845967}
+  - {fileID: -30677246401435997}
+  - {fileID: -440167618578724277}
+  - {fileID: 8229855196659290648}
+  - {fileID: -8898973355121724684}
+  - {fileID: -4281831167829935355}
+  - {fileID: -5629752018424845759}
+  - {fileID: 3090693884524437409}
+  - {fileID: -2844975809792947607}
+  - {fileID: -5133789832191520744}
+  - {fileID: 944032176012091625}
+  - {fileID: -3752361275555698951}
+  - {fileID: -9007953123208793032}
+  - {fileID: 6251572754819602076}
+  - {fileID: 535668087259513200}
+  - {fileID: 7009424683552072459}
+  - {fileID: 7825976967594224677}
+  - {fileID: -4211262209400330947}
+  - {fileID: 5640544670597286363}
+  - {fileID: -3359367038637389043}
+  - {fileID: 5520477090187227140}
+  - {fileID: 5771918765935069409}
+  - {fileID: -4223845317144658114}
+  - {fileID: -3882700829673752265}
+  - {fileID: -7574729548872413888}
+  - {fileID: -7596040843063170003}
+  - {fileID: 289452716127312938}
+  - {fileID: 7937108335630350557}
+  - {fileID: -3810111831585361388}
+  - {fileID: -1315936593089945554}
+  - {fileID: -7932938200454164117}
+  - {fileID: -1997479450868552955}
+  - {fileID: -7797083616600932479}
+  - {fileID: 6397238171916782040}
+  - {fileID: 7598615422436623877}
+  - {fileID: -4601861949032891029}
+  - {fileID: 1406386396557676155}
+  - {fileID: -3632367292782234096}
+  - {fileID: -2160170550718695607}
+  - {fileID: -6197009986167842942}
+  - {fileID: 4928152769375724344}
+  - {fileID: -517311037220259262}
+  - {fileID: -1860664887338075541}
+  - {fileID: 4739050870234087820}
+  - {fileID: -1657176477048487840}
+  - {fileID: 6893829675329752547}
+  - {fileID: 59195298856798163}
+  - {fileID: 4467416808769468578}
+  - {fileID: 4049940737119431206}
+  - {fileID: -3286050582537445861}
+  - {fileID: -1632367980263519041}
+  - {fileID: -7109979178004456068}
+  - {fileID: 7032989124198618645}
+  - {fileID: 3034905748587101892}
+  - {fileID: 520561334818745818}
+  - {fileID: -1279721511952166675}
+  - {fileID: -7676004819784081067}
+  - {fileID: 1474145505833800171}
+  - {fileID: 822153735455547355}
+  - {fileID: 1436154828962357852}
+  - {fileID: 3873369366768396174}
+  - {fileID: 6045031427442878885}
+  - {fileID: -2575631908700492309}
+  - {fileID: -948674530322706967}
+  - {fileID: -5027294593930961511}
+  - {fileID: 6296352367454981819}
+  - {fileID: -1656430254218981923}
+  - {fileID: 8575431035253939968}
+  - {fileID: -3480707283502571976}
+  - {fileID: -2685777651350412067}
+  EditorParameters:
+  - {fileID: 2292392784299482037}
   MasterBanks:
   - {fileID: 8415085545754320421}
   StringsBanks:
   - {fileID: 5299780115572770900}
   cacheVersion: 131858
+<<<<<<< Updated upstream
   cacheTime: 639054580725953306
+=======
+  cacheTime: 639055587043138696
+>>>>>>> Stashed changes
   SerializableEventsDict:
   - key: event:/TEST
     index: 0
+  - key: event:/Gamestates/Redd Complete
+    index: 1
+  - key: event:/Voice/Georgia/21
+    index: 2
+  - key: event:/SFX/UI/ExitMenu
+    index: 3
+  - key: event:/Voice/Georgia/26
+    index: 4
+  - key: event:/Gamestates/Al Intro
+    index: 5
+  - key: event:/SFX/UI/SceneTransition_CurtainsOpen
+    index: 6
+  - key: event:/SFX/Characters/Femme/Footsteps
+    index: 7
+  - key: event:/Voice/Georgia/40
+    index: 8
+  - key: event:/Voice/Georgia/24
+    index: 9
+  - key: event:/SFX/UI/SceneTransition_CurtainsClose
+    index: 10
+  - key: event:/Voice/Georgia/11
+    index: 11
+  - key: event:/Voice/Georgia/33
+    index: 12
+  - key: event:/Voice/Georgia/13
+    index: 13
+  - key: event:/Voice/Femme/11
+    index: 14
+  - key: event:/Voice/Georgia/41
+    index: 15
+  - key: event:/Voice/Femme/01
+    index: 16
+  - key: event:/SFX/Environment/Ambience_RandomShots
+    index: 17
+  - key: event:/Voice/Femme/14
+    index: 18
+  - key: event:/SFX/UI/EnterMenu
+    index: 19
+  - key: event:/Voice/Georgia/31
+    index: 20
+  - key: event:/Voice/Femme/10
+    index: 21
+  - key: event:/Gamestates/Redd Intro
+    index: 22
+  - key: event:/Voice/Georgia/36
+    index: 23
+  - key: event:/Gamestates/Al Puzzle
+    index: 24
+  - key: event:/Voice/Georgia/34
+    index: 25
+  - key: event:/Voice/Georgia/06
+    index: 26
+  - key: event:/Voice/Georgia/27
+    index: 27
+  - key: event:/Voice/Femme/06
+    index: 28
+  - key: event:/Voice/Georgia/28
+    index: 29
+  - key: event:/Voice/Femme/05
+    index: 30
+  - key: event:/Voice/Georgia/23
+    index: 31
+  - key: event:/Voice/Femme/13
+    index: 32
+  - key: event:/Voice/Georgia/25
+    index: 33
+  - key: event:/Voice/Femme/09
+    index: 34
+  - key: event:/Voice/Femme/04
+    index: 35
+  - key: event:/Voice/Femme/15
+    index: 36
+  - key: event:/Gamestates/Femme Puzzle
+    index: 37
+  - key: event:/SFX/Characters/Al/Footsteps
+    index: 38
+  - key: event:/Voice/Georgia/08
+    index: 39
+  - key: event:/Voice/Georgia/14
+    index: 40
+  - key: event:/SFX/Characters/Mae/Footsteps
+    index: 41
+  - key: event:/Gamestates/Intro
+    index: 42
+  - key: event:/Gamestates/Outro
+    index: 43
+  - key: event:/Voice/Georgia/17
+    index: 44
+  - key: event:/Voice/Femme/02
+    index: 45
+  - key: event:/Gamestates/Redd Puzzle
+    index: 46
+  - key: event:/Gamestates/Credits
+    index: 47
+  - key: event:/Voice/Georgia/15
+    index: 48
+  - key: event:/Voice/Georgia/02
+    index: 49
+  - key: event:/SFX/UI/Mini-Game_PuzzleSlide
+    index: 50
+  - key: event:/Voice/Georgia/03
+    index: 51
+  - key: event:/Voice/Georgia/32
+    index: 52
+  - key: event:/Voice/Femme/12
+    index: 53
+  - key: event:/SFX/UI/Button
+    index: 54
+  - key: event:/Voice/Georgia/42
+    index: 55
+  - key: event:/Gamestates/Al Complete
+    index: 56
+  - key: event:/Voice/Georgia/09
+    index: 57
+  - key: event:/SFX/Characters/Georgia/Footsteps
+    index: 58
+  - key: event:/SFX/Characters/Redd/Footsteps
+    index: 59
+  - key: event:/Voice/Georgia/37
+    index: 60
+  - key: event:/Voice/Georgia/39
+    index: 61
+  - key: event:/Voice/Femme/08
+    index: 62
+  - key: event:/Voice/Georgia/04
+    index: 63
+  - key: event:/Voice/Georgia/01
+    index: 64
+  - key: event:/Voice/Georgia/20
+    index: 65
+  - key: event:/Voice/Georgia/19
+    index: 66
+  - key: event:/SFX/UI/TextScroll
+    index: 67
+  - key: event:/Voice/Georgia/18
+    index: 68
+  - key: event:/SFX/UI/Clicks
+    index: 69
+  - key: event:/Voice/Georgia/22
+    index: 70
+  - key: event:/Voice/Femme/03
+    index: 71
+  - key: event:/Voice/Georgia/12
+    index: 72
+  - key: event:/SFX/Environment/Ambience_Bed_Wind
+    index: 73
+  - key: event:/Voice/Femme/07
+    index: 74
+  - key: event:/Voice/Georgia/29
+    index: 75
+  - key: event:/Voice/Georgia/35
+    index: 76
+  - key: event:/SFX/UI/Mini-Game_Complete
+    index: 77
+  - key: event:/Gamestates/Femme Complete
+    index: 78
+  - key: event:/Voice/Georgia/07
+    index: 79
+  - key: event:/SFX/Environment/Ambience_Bed_Crows
+    index: 80
+  - key: event:/Voice/Georgia/38
+    index: 81
+  - key: event:/Voice/Georgia/30
+    index: 82
+  - key: event:/Gamestates/Intro Dialogue
+    index: 83
+  - key: event:/Voice/Georgia/16
+    index: 84
+  - key: event:/SFX/Environment/Ambience_Bed_Rain
+    index: 85
+  - key: event:/Voice/Georgia/10
+    index: 86
+  - key: event:/Gamestates/Femme Intro
+    index: 87
+  - key: event:/Voice/Georgia/05
+    index: 88
+  - key: event:/Voice/Femme/16
+    index: 89
+--- !u!114 &59195298856798163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/19
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/19
+  Guid:
+    Data1: -273858105
+    Data2: 1137516173
+    Data3: 2075763354
+    Data4: 1193963601
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6984
+--- !u!114 &289452716127312938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Redd Puzzle
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Redd Puzzle
+  Guid:
+    Data1: 563425425
+    Data2: 1086651212
+    Data3: -412215647
+    Data4: 176967694
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &520561334818745818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/07
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/07
+  Guid:
+    Data1: 820352470
+    Data2: 1079946218
+    Data3: -128214083
+    Data4: -417726762
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12857
+--- !u!114 &535668087259513200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/09
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/09
+  Guid:
+    Data1: 963730537
+    Data2: 1102541968
+    Data3: -564697196
+    Data4: -2031777425
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15104
+--- !u!114 &779774270764025044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/EnterMenu
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/EnterMenu
+  Guid:
+    Data1: -537754555
+    Data2: 1324670090
+    Data3: -122032210
+    Data4: -622478333
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &822153735455547355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Femme Complete
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Femme Complete
+  Guid:
+    Data1: -1244041760
+    Data2: 1230746934
+    Data3: 1942203017
+    Data4: -1270639792
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &944032176012091625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/05
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/05
+  Guid:
+    Data1: 1551571041
+    Data2: 1271159886
+    Data3: 1779017616
+    Data4: 1719464398
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1666
+--- !u!114 &1178994626699438379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/01
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/01
+  Guid:
+    Data1: -30287309
+    Data2: 1210766413
+    Data3: -238356332
+    Data4: -753579493
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1845
+--- !u!114 &1380885304004309329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/26
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/26
+  Guid:
+    Data1: 1284936725
+    Data2: 1296984184
+    Data3: -836955460
+    Data4: 982386809
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5512
+--- !u!114 &1406386396557676155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Al Complete
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Al Complete
+  Guid:
+    Data1: 529723311
+    Data2: 1286005191
+    Data3: 699195779
+    Data4: -191668118
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1436154828962357852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/07
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/07
+  Guid:
+    Data1: 1700308448
+    Data2: 1199408330
+    Data3: -271126879
+    Data4: -379639138
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &1474145505833800171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Mini-Game_Complete
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Mini-Game_Complete
+  Guid:
+    Data1: -1395429156
+    Data2: 1112246450
+    Data3: -1833908845
+    Data4: -1473441183
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &2292392784299482037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gamestate
+  m_EditorClassIdentifier: 
+  Name: Gamestate
+  StudioPath: parameter:/Gamestate
+  Min: 0
+  Max: 13
+  Default: 0
+  ID:
+    data1: 50527770
+    data2: 941830580
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - Intro
+  - Intro Dialogue
+  - Al Intro
+  - Al Puzzle
+  - Al Complete
+  - Redd Intro
+  - Redd Puzzle
+  - Redd Complete
+  - Femme Intro
+  - Femme Puzzle
+  - Femme Complete
+  - Outro
+  - Credits
+  Exists: 1
+--- !u!114 &2675516590659971083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/ExitMenu
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/ExitMenu
+  Guid:
+    Data1: -1862188014
+    Data2: 1126133433
+    Data3: 78688642
+    Data4: 1420626708
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &2691703770503398651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/13
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/13
+  Guid:
+    Data1: -1250240990
+    Data2: 1315280063
+    Data3: 2118655901
+    Data4: 1302734604
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3809
+--- !u!114 &2705692727230396787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Environment/Ambience_RandomShots
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Environment/Ambience_RandomShots
+  Guid:
+    Data1: -579545799
+    Data2: 1186313480
+    Data3: -512620612
+    Data4: 799705310
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 78272
+--- !u!114 &3034905748587101892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Environment/Ambience_Bed_Wind
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Environment/Ambience_Bed_Wind
+  Guid:
+    Data1: -754049326
+    Data2: 1329992731
+    Data3: 946431881
+    Data4: 1743378496
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 59500
+--- !u!114 &3090693884524437409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/27
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/27
+  Guid:
+    Data1: 1997510492
+    Data2: 1103519523
+    Data3: 754766753
+    Data4: -1250901016
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &3321699726843741003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/41
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/41
+  Guid:
+    Data1: -1509053135
+    Data2: 1259472828
+    Data3: -1329830980
+    Data4: -491011156
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &3551025664528540496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/SceneTransition_CurtainsClose
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/SceneTransition_CurtainsClose
+  Guid:
+    Data1: -1330228962
+    Data2: 1177994599
+    Data3: -867661181
+    Data4: -122095521
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1400
+--- !u!114 &3605914852076814688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/14
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/14
+  Guid:
+    Data1: -2121404100
+    Data2: 1295141719
+    Data3: -217613156
+    Data4: -729988752
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1666
+--- !u!114 &3873369366768396174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Environment/Ambience_Bed_Crows
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Environment/Ambience_Bed_Crows
+  Guid:
+    Data1: -919958557
+    Data2: 1174067671
+    Data3: -45242206
+    Data4: 718035810
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 75500
+--- !u!114 &4049940737119431206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/18
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/18
+  Guid:
+    Data1: -2105852471
+    Data2: 1265308808
+    Data3: -370372675
+    Data4: 1341341884
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5952
+--- !u!114 &4066505490453415720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/11
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/11
+  Guid:
+    Data1: 944408352
+    Data2: 1317444453
+    Data3: -728096621
+    Data4: -1454595133
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1666
+--- !u!114 &4467416808769468578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/TextScroll
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/TextScroll
+  Guid:
+    Data1: 1822392263
+    Data2: 1106012423
+    Data3: -219455065
+    Data4: -1314768192
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &4739050870234087820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/04
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/04
+  Guid:
+    Data1: 123572671
+    Data2: 1253803070
+    Data3: 2138572477
+    Data4: 1038397517
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1666
+--- !u!114 &4928152769375724344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/37
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/37
+  Guid:
+    Data1: 997328570
+    Data2: 1109442783
+    Data3: 160918462
+    Data4: -21462119
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4523
+--- !u!114 &5080666929827160002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/33
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/33
+  Guid:
+    Data1: -429707230
+    Data2: 1277646245
+    Data3: 523899532
+    Data4: 716309731
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2619
 --- !u!114 &5299780115572770900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,11 +2267,366 @@ MonoBehaviour:
   Path: ../FMOD Project/PPMP/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< Updated upstream
   lastModified: 639054580725953306
+=======
+  lastModified: 639055587043138696
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
-    Value: 766
+    Value: 4384
   Exists: 1
+--- !u!114 &5520477090187227140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/14
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/14
+  Guid:
+    Data1: -568541574
+    Data2: 1236899923
+    Data3: -228565578
+    Data4: -558986247
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4761
+--- !u!114 &5640544670597286363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Characters/Al/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Characters/Al/Footsteps
+  Guid:
+    Data1: -1695072905
+    Data2: 1287185966
+    Data3: 393829820
+    Data4: -725352246
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1256
+--- !u!114 &5685710466477845967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/31
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/31
+  Guid:
+    Data1: -110987705
+    Data2: 1198076301
+    Data3: 241089411
+    Data4: -1576905592
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5226
+--- !u!114 &5771918765935069409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Characters/Mae/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Characters/Mae/Footsteps
+  Guid:
+    Data1: 753482884
+    Data2: 1264804900
+    Data3: 1837478311
+    Data4: -1983947172
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &5794407424759556524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/24
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/24
+  Guid:
+    Data1: 273896989
+    Data2: 1304894935
+    Data3: -1524883054
+    Data4: 1125700540
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1078
+--- !u!114 &6045031427442878885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/38
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/38
+  Guid:
+    Data1: 1206523365
+    Data2: 1141931748
+    Data3: 513842315
+    Data4: -683956582
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8698
+--- !u!114 &6251572754819602076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/25
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/25
+  Guid:
+    Data1: -169235096
+    Data2: 1101925927
+    Data3: -1695181124
+    Data4: -1641944213
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2045
+--- !u!114 &6296352367454981819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Environment/Ambience_Bed_Rain
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Environment/Ambience_Bed_Rain
+  Guid:
+    Data1: -1007171607
+    Data2: 1169427018
+    Data3: -1624889698
+    Data4: 937005021
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66000
+--- !u!114 &6397238171916782040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/12
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/12
+  Guid:
+    Data1: -1549715804
+    Data2: 1078313249
+    Data3: 298167204
+    Data4: 232240067
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13333
+--- !u!114 &6893829675329752547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/20
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/20
+  Guid:
+    Data1: 1656138945
+    Data2: 1101844039
+    Data3: -1256598643
+    Data4: -207285656
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3648
+--- !u!114 &7009424683552072459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/04
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/04
+  Guid:
+    Data1: -1056530829
+    Data2: 1232431713
+    Data3: 1965528243
+    Data4: 448831481
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1726
+--- !u!114 &7032989124198618645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/12
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/12
+  Guid:
+    Data1: 614688976
+    Data2: 1229990254
+    Data3: 1674243245
+    Data4: -1709661943
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2380
+--- !u!114 &7376308864250522661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/SceneTransition_CurtainsOpen
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/SceneTransition_CurtainsOpen
+  Guid:
+    Data1: -520655845
+    Data2: 1166869532
+    Data3: -2049354878
+    Data4: 1011607331
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
 --- !u!114 &7560595745002435955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,13 +2647,122 @@ MonoBehaviour:
     Data4: 138629506
   Banks:
   - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 9205492444316781545}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7598615422436623877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Button
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Button
+  Guid:
+    Data1: 751720107
+    Data2: 1283679305
+    Data3: -591166804
+    Data4: -406814119
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &7825976967594224677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Femme/15
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Femme/15
+  Guid:
+    Data1: -1264074123
+    Data2: 1237117836
+    Data3: -1320702791
+    Data4: -760637498
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5238
+--- !u!114 &7937108335630350557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Credits
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Credits
+  Guid:
+    Data1: 718810264
+    Data2: 1112324255
+    Data3: 412574346
+    Data4: 208134225
+  Banks:
+  - {fileID: 8415085545754320421}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 226186
+  Length: 0
+--- !u!114 &8229855196659290648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/36
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/36
+  Guid:
+    Data1: -1658330543
+    Data2: 1193788249
+    Data3: 196857532
+    Data4: -1132736664
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3928
 --- !u!114 &8415085545754320421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,8 +2778,104 @@ MonoBehaviour:
   Path: ../FMOD Project/PPMP/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
+<<<<<<< Updated upstream
   lastModified: 639054580725787947
+=======
+  lastModified: 639055587043098660
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
-    Value: 3119040
+    Value: 13695104
+  Exists: 1
+--- !u!114 &8575431035253939968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gamestates/Femme Intro
+  m_EditorClassIdentifier: 
+  Path: event:/Gamestates/Femme Intro
+  Guid:
+    Data1: -547963925
+    Data2: 1245172752
+    Data3: -1689741679
+    Data4: -1732976271
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9074529389893406760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Georgia/40
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Georgia/40
+  Guid:
+    Data1: -867546596
+    Data2: 1130839788
+    Data3: 257027248
+    Data4: -1601634303
+  Banks:
+  - {fileID: 8415085545754320421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4107
+--- !u!114 &9205492444316781545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TEST/Gamestate
+  m_EditorClassIdentifier: 
+  Name: Gamestate
+  StudioPath: 
+  Min: 0
+  Max: 13
+  Default: 0
+  ID:
+    data1: 50527770
+    data2: 941830580
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - Intro
+  - Intro Dialogue
+  - Al Intro
+  - Al Puzzle
+  - Al Complete
+  - Redd Intro
+  - Redd Puzzle
+  - Redd Complete
+  - Femme Intro
+  - Femme Puzzle
+  - Femme Complete
+  - Outro
+  - Credits
   Exists: 1
