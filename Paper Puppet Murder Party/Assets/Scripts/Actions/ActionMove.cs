@@ -6,8 +6,6 @@ public class ActionMove : Action
 {
     // Start is called before the first frame update
 
-
-
     public Vector3 StartPosition_;
 
     public Vector3 EndPosition_;
@@ -16,6 +14,10 @@ public class ActionMove : Action
     public Transform EndPositionTransform_;
 
     public float MoveSpeed_;
+
+    public FMODUnity.EventReference[] FMODEvents;
+    public float FMODEventRepeatTime = 0.1f;
+    private float FMODEventTimer = 0;
 
     public ActionMove(GameObject objectM, Vector3 start, Vector3 end, float duration = 0.0f, float time = 0.0f, EaseType type = 0, bool block_ = false, int blocknum_ = 0)
     {
@@ -33,6 +35,15 @@ public class ActionMove : Action
     // Update is called once per frame
     override public bool Update()
     {
+        FMODEventTimer += Time.deltaTime;
+        if(FMODEventTimer > FMODEventRepeatTime)
+        {
+            foreach (FMODUnity.EventReference e in FMODEvents)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot(e);
+            }
+            FMODEventTimer = 0;
+        }
 
         if (StartPositionTransform_ && EndPositionTransform_)
         {
@@ -49,11 +60,8 @@ public class ActionMove : Action
         }
 
 
+
         return true;
 
-    }
-
-    private void OnDisable()
-    {
     }
 }
