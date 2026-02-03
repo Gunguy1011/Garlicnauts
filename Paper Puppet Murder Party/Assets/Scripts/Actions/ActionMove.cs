@@ -33,6 +33,7 @@ public class ActionMove : Action
     // Update is called once per frame
     override public bool Update()
     {
+
         if (StartPositionTransform_ && EndPositionTransform_)
         {
             StartPosition_ = StartPositionTransform_.position;
@@ -42,10 +43,17 @@ public class ActionMove : Action
         Actoor.transform.localPosition = Vector3.Lerp(StartPosition_, EndPosition_, PercentageDone_);
 
         if (Actoor.transform.localPosition == EndPosition_ || PercentageDone_ >= 1.0f)
+        {
+            PercentageDone_ = Time_ = 0;
             return false;
+        }
 
 
         return true;
 
+    }
+
+    private void OnDisable()
+    {
     }
 }
